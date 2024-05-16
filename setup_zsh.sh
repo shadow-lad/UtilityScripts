@@ -15,5 +15,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # Step 5: Setup main PowerLevel10K
 curl -kL "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.p10k.zsh" > ~/.p10k.zsh
 
-# Step 6: Setup zshrc
+# Step 6: Setup console PowerLevel10K
+curl -kL "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.p10k.console.zsh" > ~/.p10k.console.zsh
+
+# Step 7: Setup zshrc
 curl -kL "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.zshrc" > ~/.zshrc
+
