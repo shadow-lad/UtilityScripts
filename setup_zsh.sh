@@ -16,4 +16,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 curl -kL "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.p10k.zsh" > ~/.p10k.zsh
 
 # Step 6: Setup zshrc
-curl -kL "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.p10k.zsh" > ~/.zshrc
+curl -kL "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.zshrc" > ~/.zshrc
