@@ -138,7 +138,7 @@ setopt HIST_IGNORE_SPACE
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 if [[ `tput colors` == 256 ]]; then
-	[[ ! -f '~/.p10k.zsh' ]] || source ~/.p10k.zsh
+	[[ -f '~/.p10k.zsh' ]] || source ~/.p10k.zsh
 else
-	[[ ! -f '~/.p10k.console.zsh' ]] || source ~/.p10k.console.zsh
+	[[ -f '~/.p10k.console.zsh' ]] || source ~/.p10k.console.zsh
 fi
