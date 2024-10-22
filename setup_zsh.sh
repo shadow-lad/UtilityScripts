@@ -20,7 +20,3 @@ curl -L "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.p10k.
 
 # Step 7: Setup zshrc
 curl -L "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.zshrc" > ~/.zshrc
-
-# Step 8: Populate Kitty Config
-mkdir -p ~/.config/kitty
-curl -L "https://raw.githubusercontent.com/shadow-lad/UtilityScripts/main/.kitty.conf" > ~/.config/kitty/kitty.conf
